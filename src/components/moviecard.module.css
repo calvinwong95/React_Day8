@@ -1,0 +1,23 @@
+.movie_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /* margin: 0 auto; */
+    /* border-bottom: 1px solid black; */
+}
+
+.img_holder{
+    width: 250px;
+    height: 400px;
+    background-color: cadetblue;
+    margin: 0 10px;
+}
+
+.details_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
