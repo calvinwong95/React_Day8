@@ -8,7 +8,7 @@ export const fetchMovie = (data) => (dispatch) => {
     });
 
     try {
-        axios.get(`http://www.omdbapi.com/?apikey=192e4cfd&s=${data}&page=1`)
+        axios.get(`https://www.omdbapi.com/?apikey=192e4cfd&s=${data}&page=1`)
         .then((res)=>{
             console.log('res...',res);
         if (res.status === 200 && res.data.Response === 'True') {
@@ -45,7 +45,7 @@ export const fetchMovieDetails = (data) => (dispatch) => {
     })
 
     try{
-        axios.get(`http://www.omdbapi.com/?apikey=192e4cfd&i=${data}`)
+        axios.get(`https://www.omdbapi.com/?apikey=192e4cfd&i=${data}`)
         .then((res)=>{
             if(res.status === 200) {
                 dispatch({

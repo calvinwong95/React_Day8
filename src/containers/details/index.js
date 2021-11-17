@@ -51,7 +51,7 @@ class Details extends React.Component{
                 <h3>Directed by: {this.state.data.Director}</h3> 
                 <h3>Year: {this.state.data.Year}</h3> 
                 <h3>Description: {this.state.data.Plot}</h3>
-                <Link to="React_Day8/" ><button>Go back</button> </Link>
+                <Link to="/" ><button>Go back</button> </Link>
                 </div>
                 </div>
                 }

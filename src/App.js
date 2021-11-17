@@ -5,9 +5,9 @@ import Details from "./containers/details";
 
 function App() {
   return (
-    <Routes>
-      <Route path="movie_redux/details/:id" element={<Details />} />
-      <Route path="movie_redux/" element={<Home />} />
+    <Routes basename = {process.env.PUBLIC_URL}>
+      <Route path="/details/:id" element={<Details />} />
+      <Route path="/" element={<Home />} />
     </Routes>
     
   );
